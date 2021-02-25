@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ideal weight</title>
+</head>
+
+<body>
+    <h2> Find Your Ideal Weight</h2>
+    <form name="infos">
+        <label for="size">Your Size : </label><br>
+        <input type="text" name="size" id="size" value="178"><br><br>
+        <label for="age">Your Age : </label><br>
+        <input type="text" name="age" id="age" value="38"><br><br>
+        <label for="gender">Your Gender : </label>
+        <select name="gender" id="gender">
+        <option value="Male">Male</option>
+        <option value="Female" selected>Female</option>
+    </select>
+        <br><br>
+        <input type="button" value="Find" name="FindButton" onclick="idealWeight()">
+        <input type="reset" value="reset">
+
+    </form>
+    <p id="ideal">
+
+    </p>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
